@@ -9,6 +9,8 @@
   "author": "Roman Zhyvko",
   "license": "ISC",
   "devDependencies": {
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
