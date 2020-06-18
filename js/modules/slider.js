@@ -48,7 +48,7 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
         margin-right: 15%;
         margin-left: 15%;
         list-style: none;
-    `; // Если хотите - добавьте в стили, но иногда у нас нет доступа к стилям
+    `; 
     slider.append(indicators);
 
     for (let i = 0; i < slides.length; i++) {
@@ -152,3 +152,4 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
 }
 
 export default slider;
+
